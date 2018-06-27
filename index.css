@@ -1,0 +1,328 @@
+/* FONTS UPLOADS */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:800');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300');
+
+/* HEADER HTML BODY */
+
+html, body {
+    margin: 0;
+    width: 100%;
+}
+
+/* MENU */
+
+.menu_barre{
+    background-color: green;
+    text-align: center;
+}
+
+a:link, a:visited{
+    background-color:green;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active{
+    background-color: rgb(125, 180, 125);
+}
+
+#menu {
+    padding : 2%;
+    margin : 0%;
+    text-align : center;
+    background-repeat: no-repeat;
+    height: 4%;
+    position: fixed; 
+    top: 0%;
+    width: 100%;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: solid black;
+    float: left; 
+    text-transform: uppercase;
+    font-family: 'Raleway', bold;
+    font-size: 100%;  
+}
+
+#menu:hover{
+    background: green;
+    color:white;
+}
+/* BANNER */
+
+
+.fond {
+    background-image: url("Fond\ 2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10%;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    background-color: white;
+}
+
+p {
+    font-size: 0,5em;
+    color:black;
+    margin-bottom: 1.75em;
+    width: 100%;
+    font-family: 'Work Sans', sans serif;
+    padding: 1%;
+    background-color: white;
+}
+
+#article {
+    background-color: white;
+    font-family: 'Work Sans', sans serif;
+    padding: 10%;
+}
+
+/* International */
+
+#International {
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    padding: 10%;
+    font-family: 'Raleway', sans-serif;
+    height: 100%;  
+    width: 100%;
+}
+
+#International h1 {
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    align-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+    line-height: 20px;
+    margin: 0 0 0.5em 0;
+    padding: 1px;
+}
+
+#International p {
+    font-size: 15px;
+    text-align: center;
+    color: rgb(78, 73, 73);
+    font-family: 'Work Sans', sans serif;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 10%;
+    padding-left: 50%;
+    padding-right: 50%;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+#International article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+
+#International img{
+    width: 25%;
+    height: 25%;
+}
+
+/* PROFILE */
+
+#profile {
+    background-color:green;
+    margin: 0px;
+    padding: 5%;
+    font-size: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+#profile h5 {
+    font-size: 100%;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    color: white;
+    line-height: 1em;
+    width: 20%;
+    padding: 0%;
+    margin: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#profile img{
+    width: 20%;
+    height: 20%;
+    justify-content: center;
+}
+
+/* Tools */
+
+tools h2 {
+    list-style-type: square;
+    color:green;
+    background-color: grey;
+    font-size: 100%;
+    margin: 3%;
+    width: 100%;
+    text-align: center;
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* EXPERIENCES */
+
+forme h1 {
+    list-style-type: square;
+    color:white;
+    background-color: green;
+    font-size: 100%;
+    margin: 0%;
+    width: 100%;
+    text-align: center;
+    padding: 1%;
+    padding-left: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+forme h2 {
+    list-style-type: square;
+    color:black;
+    background-color: white;
+    font-size: 100%;
+    margin: 2%;
+    text-align: left;
+    padding: 0%;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+forme h3 {
+    list-style-type: square;
+    color:black;
+    background-color: white;
+    font-size: 100%;
+    margin: 0%;
+    text-align: left;
+    padding: 0%;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+forme p {
+    list-style-type: square;
+    color:green;
+    background-color: white;
+    font-size: 100%;
+    margin: 0%;
+    text-align: left;
+    padding: 1%;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+/* CERTIFICATES */
+
+#certificates {
+    background-color: white;
+    color: black;
+    margin: 0px;
+    color: green;
+    text-align: center; 
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 0%;
+    font-family: 'Raleway', sans-serif;
+    height: 100%;  
+    width: 100%;
+}
+
+#certificates h1{
+    font-family: 'Work Sans', sans serif;
+    font-size: 0.7em;
+}
+
+#certificates h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9em;
+}
+
+/* CONTACTME */
+
+#contactme {
+    background-color: green;
+    color: white;
+    text-align: center; 
+}
+
+#photos img{
+    width: 30%;
+    height: 20%;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#photos{
+    background-color: green;
+    margin: 0px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+/*RESPONSIVE*/
+
+/**mobile**/
+@media screen and (max-width: 600px) {
+profile {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 80%;    
+}
+}
+
+/*tablet*/
+@media screen and (min-width: 600px) and (max-width: 900px){
+    section a {
+        width: 37%;
+    }
+  }
